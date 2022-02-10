@@ -53,7 +53,7 @@ Histogram of data after beeing logged and normalized.
 
 ### Q-Q Plot of Normalized Data
 
-<img src="./images/nomalized_qq_plot.png" width =100%>
+<img src="./images/normalized_qq_plot.png" width =100%>
 QQ Plot after logging and normalizng data.
 
 ## Conclusion
