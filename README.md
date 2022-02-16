@@ -39,6 +39,9 @@ After importing the appropriate libraries, the useful data needed for the busine
 
 ## Regression Results
 
+Homes with grade of low average vs. one with grade “very good” would be ~$495,000 cheaper than one that’s “very good”. Homes with a home of grade “fair” are ~$546,800 cheaper than one that is of grade “very good”. Homes with a home of grade “poor” are ~$567200 cheaper than one of grade “very good”.
+A home with no view would save ~$57,200 compared to one that has an average view.
+
 ### Baseline Model
 
 <img src="./images/baseline_model.png" width =100%>
@@ -59,6 +62,9 @@ QQ Plot after logging and normalizng data.
 ## Conclusion
 
 Several manipulaitons of the baseline data were performed. These included removing P-values greater than 0.5, removing a highly correlated variable like "bedrooms", removing outliers outside of 3 standard deviations, and logging+ normalizing the data. After all this was done, it turned out that the best R-squared value came from the baseline model which is why that variable was chosen as the final set of data to go off of. The normalized data had the more normal distributed data among all the other versions. It also had the more linear looking QQ plot. Coefficients with high values were chosen from the baseline OLS results. These include a grade of low average,a grade of fair, a grade of poor, and a view of "None". These were chosen because they were negative coefficients. Because price was used as the dependant varible, these coefficients become relative to that. The higher these variables are the lower the house price will be; meaning buying a home with these varibles in mind, a homeowner a cheaper house to flip for a profit.
+To sum up, buy a home with a grade: low average, grade: fair, grade: poor, or with no view. Buying a home with these characteristics would save the buyer on average $416,550. A home with no view would save ~57,200 compared to one that has an average view.
+
+To be able to increase a home’s value, it is suggested to improve the grade of the home to preferably Better, very good, excellent, or luxury if the funds are available. Homes with some type of renovation done to them increase their value by ~42,300 as opposed to those that do not have any done. Getting a home to a condition of Good or Very Good would increase to home’s value as well. Getting a home up to a grade of excellent, luxury, or even mansion can increase its value on average by 976,633 than one that is "very good". Finally if it's possible to add a view to the home, it would add on on average 108,172 more to the final price of the home.
 
 ## For More Information
 
